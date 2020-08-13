@@ -1,2 +1,1 @@
-# Gatsby-intl
-Gatsby starter with intl &amp; styled component
+Starter gatsby intl styled component
