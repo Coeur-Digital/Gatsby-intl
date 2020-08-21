@@ -16,7 +16,7 @@ const Toggle = styled.div`
 
 const Navbox = styled.div`
   display: flex;
-  height: 100%;
+  height: 40%;
   justify-content: flex-end;
   align-items: center;
 
@@ -25,10 +25,10 @@ const Navbox = styled.div`
     position: fixed;
     width: 100%;
     djustify-content: flex-start;
-    padding-top: 10vh;
+    padding: 5vh 0 95vh;
     background-color: #fff;
     transition: all 0.3s ease-in;
-    top: 2vh;
+    top: 8vh;
     left: ${props => (props.open ? '-100%' : '0')};
   }
 `

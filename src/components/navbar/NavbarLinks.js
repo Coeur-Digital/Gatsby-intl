@@ -20,6 +20,8 @@ const NavItem = styled(Link)`
     padding: 20px 0;
     font-size: 1.5rem;
     z-index: 6;
+    postion: absolute;
+    top: 10vh;
   }
 `
 const NavbarLinks = () => {

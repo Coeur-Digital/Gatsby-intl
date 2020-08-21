@@ -38,6 +38,7 @@ h6 {
 @media (max-width: 768px) {
   .navbar {
     position: fixed;
+    background-color: white;
     height: 8vh;
     top: 0;
     left: 0;
