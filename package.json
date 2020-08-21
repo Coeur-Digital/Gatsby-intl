@@ -5,6 +5,7 @@
   "version": "0.3.3",
   "author": "Daewoong Moon <wiziple@gmail.com>",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.19.19",
     "gatsby-image": "^2.2.41",
     "gatsby-plugin-intl": "^0.3.3",
@@ -12,12 +13,15 @@
     "gatsby-plugin-offline": "^3.0.35",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-sharp": "^2.3.14",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

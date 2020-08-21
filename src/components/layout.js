@@ -9,9 +9,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import { injectIntl } from 'gatsby-plugin-intl'
-
-import Header from './header'
+import 'normalize.css'
 import './layout.css'
+import Navbar from './navbar/Navbar'
 
 const Layout = ({ children, intl }) => {
   const data = useStaticQuery(graphql`
@@ -26,7 +26,7 @@ const Layout = ({ children, intl }) => {
 
   return (
     <>
-      <Header siteTitle={intl.formatMessage({ id: 'title' })} />
+      <Navbar siteTitle={intl.formatMessage({ id: 'title' })} />
 
       <main>{children}</main>
       <footer>
