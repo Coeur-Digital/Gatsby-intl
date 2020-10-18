@@ -12,9 +12,9 @@ const IndexPage = () => {
       <SEO
         lang={intl.locale}
         title={intl.formatMessage({ id: 'title' })}
-        keywords={[`gatsby`, `application`, `react`]}
+        keywords={intl.formatMessage({ id: 'keywords' })}
       />
-      <TobeDeleted />
+
       <h1>
         <FormattedMessage id="hello" />
       </h1>
